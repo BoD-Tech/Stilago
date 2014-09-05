@@ -1,0 +1,47 @@
+@import url("../../../../../../../../Content/Stilago/LESS/Imports/color.LESS");
+@import url("../../../../../../../../Content/Stilago/LESS/Imports/font.LESS");
+
+body.club
+{
+	#header
+	{
+		.header-top {
+		    display: none;
+		}
+		.header-bottom
+		{
+			background-color: @Color-Club-darkbrown;
+			border-top: 1px solid @Color-header-bottom-border;
+			color: @Color-Txt-white;
+		}
+	}
+	.header-middle{
+		.content-holder{
+			.widgets{
+				#header-cart {
+					.shopping-cart {
+						padding-bottom: 17px;
+						.shopping-cart-link {
+							display: none;
+						}
+						.mobile-cart-title {
+							background-image: url("../../../../../../../../Content/Stilago/Images/default/ICO-Cart-White.png");
+							height: 1.5em;
+							background-position: right 5px;
+							display: block;
+							width: 2em;
+							background-repeat: no-repeat;
+							margin-right: 0.55em;
+						      }
+					       
+					}
+				  
+				}
+			}
+		}
+	}
+	#footer {
+		background-color: @Color-Club-white;
+		color: @Color-header-menu-text;
+	}
+}

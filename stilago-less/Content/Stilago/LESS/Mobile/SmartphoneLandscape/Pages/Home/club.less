@@ -1,0 +1,94 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.LESS");
+#home > #club {
+     .sale-list {
+            margin: 0px;
+            text-align: left;
+            width: 103%;
+          .sale {
+                float: left;
+                letter-spacing: normal;
+                margin-right: 3.3%;
+                padding-top: 1em;
+                vertical-align: top;
+                word-spacing: normal;
+                width: 46.7%;
+                margin-left: 0px;
+               .info {
+                    background: none repeat scroll 0 0 @Color-Club-brown;
+                    color: @Color-Txt-white;
+                    overflow: hidden;
+                    width: 100%;
+                    .left {
+                         float: left;
+                         text-align: left;
+                         width: 8em;
+                    }
+                    .end-on {
+                         font-size: 80%;
+                         margin-left: 0.5em;
+                         margin-top: 0.4em;
+                         white-space: nowrap;
+                    }
+                    .discount-percentage {
+                        display: block;
+                        font-family: 'OpenSansBold';
+                        font-size: 210%;
+                        font-weight: bold;
+                        line-height: 1em;
+                        margin-right: 0.13em;
+                        margin-top: 0.7em;
+                        .percentage-symbol
+                           {
+                                   display: inline-block;
+                                   font-size: 43%;
+                                   position: relative;
+                                   top: -0.53em;
+                           }
+                    }
+               }
+               .banner-container {
+                    display: block;
+                    position: relative;
+                    width: auto;
+                    height: auto;
+               }
+          }
+     }
+    .promo-banners {
+          .main-and-announcement-banners {
+               float: left;
+               width: 100%;
+               .carousel-wrapper {
+                    height: 210px;
+                    position: relative;
+                    width: 100%;
+               
+               .prev {
+                    background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
+                    left: 0;
+                    &:hover {
+                         background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev-Active.png");
+                    }
+               }
+               
+               .next {
+                    background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext.png");
+                    right: 0;
+                    &:hover {
+                         background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext-Active.png");
+                    }
+               }
+               }
+               .announcement-bar {
+                    display: none;
+               }
+          }
+          .small-banner {
+               display: none;
+               .banner-name {
+                    width: 100%;
+                    padding: 0px;
+               }
+          }
+     }
+}

@@ -1,0 +1,56 @@
+body .error {
+  padding-bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+body #error-500 {
+  min-width: 960px;
+  /* Set up proportionate scaling */
+  min-height: 667px;
+  width: 1366px;
+  margin: auto auto;
+  z-index: -1;
+  background-image: url(/content/stilago/images/error/error500.png);
+}
+body #error-500 .error-page-content {
+  margin-left: 420px;
+  padding-top: 3.5em;
+  height: auto;
+  width: auto;
+}
+body #error-500 .error-page-content .error-page-logo {
+  position: relative;
+  display: block;
+  background-image: url(/content/stilago/images/error/error500-logo.png);
+  height: 80px;
+  background-repeat: no-repeat;
+}
+body #error-500 .error-page-content .error-code {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 750%;
+  position: relative;
+  float: left;
+}
+body #error-500 .error-page-content .error-message {
+  margin-left: 10px;
+  margin-top: 45px;
+  position: relative;
+  float: left;
+  width: 500px;
+}
+body #error-500 .error-page-content .error-message .error-header {
+  font-weight: 700;
+  font-size: 180%;
+  margin-bottom: 10px;
+}
+body #error-500 .error-page-content .error-message .error-body {
+  display: table-cell;
+  -ms-word-break: keep-all;
+  word-break: keep-all;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  width: 370px;
+  font-size: 110%;
+}

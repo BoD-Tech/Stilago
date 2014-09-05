@@ -1,0 +1,103 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.LESS");
+#home > #club 
+{
+    .sale-list {
+        margin: 0px 0 4px -1.2%;
+        text-align: left;
+        .sale .banner-container {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: auto !important;
+        }
+        .sale {
+            float: left;
+            letter-spacing: normal;
+            margin-left: 1.31%;
+            margin-right: 0;
+            padding: 0.5em 0;
+            vertical-align: top;
+            width: 32%;
+            word-spacing: normal;
+            .info {
+                background: none repeat scroll 0 0 @Color-Club-brown;
+                color: @Color-Txt-white;
+                overflow: hidden;
+                width: 100%;
+                .left {
+                    float: left;
+                    text-align: left;
+                    width: 10em;
+                }
+                .end-on {
+                    font-size: 80%;
+                    margin-left: 0.5em;
+                    margin-top: 0.4em;
+                    white-space: nowrap;
+                }
+                .discount-percentage {
+                    display: block;
+                    font-family: 'OpenSansBold';
+                    font-size: 300%;
+                    font-weight: bold;
+                    line-height: 1em;
+                    margin-right: 0.13em;
+                    margin-top: 0.18em;
+                }
+            }
+        }
+    }
+    .promo-banners{
+        .main-and-announcement-banners{
+            width: 65.4%;
+            margin-right: 0%;
+            .carousel-wrapper {
+                //height: 250px;
+                position: relative;
+                width: 100%;
+                .prev{
+                    background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
+                    left: 0;
+                    &:hover{
+                        background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev-Active.png");
+                    }
+                }
+                .next {
+                    background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext.png");
+                    right: 0;
+                    &:hover{
+                        background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext-Active.png");
+                    }
+                }
+            }
+            .announcement-bar {
+          height: 27px;
+          margin-bottom: 10px;
+          overflow: hidden;
+          width: 100%;
+          display: block;
+        }
+        .pagination{
+            bottom: 10px;
+            float: left;
+            left: 25px;
+            position: relative;
+            }
+        }
+        .small-banner {
+        float: right;
+        height: auto !important;
+        //max-height: 21.5em;
+        margin-left: 0px;
+        width: 32.4%;
+        display: block;
+        .banner-name {
+            width: 100%;
+            padding: 0px;
+            font-size: 1em;
+            text-align: center;
+        }
+        
+        }
+    }
+}
