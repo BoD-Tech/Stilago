@@ -1,0 +1,15 @@
+@import url("../../../../../../../../Content/Stilago/LESS/Imports/font.css");
+body.club #header .header-top {
+  display: none;
+}
+body.club #header .header-middle .content-holder .widgets #header-cart .shopping-cart {
+  margin-right: 1.1em;
+  padding-bottom: 0px;
+  position: relative;
+  z-index: 1000;
+  margin-top: 1.5em;
+}
+body.club #header .header-middle .content-holder .widgets #header-cart .shopping-cart .shopping-cart-link .cart-title {
+  background-image: url("../../../../../../../../Content/Stilago/Images/default/ICO-Cart-White.png");
+  height: 1.8em;
+}

@@ -1,0 +1,483 @@
+@import url("../../../../../../Content/Stilago/LESS/Imports/font.css");
+#header {
+  margin-bottom: 15px;
+  width: 100%;
+}
+#header .header-middle {
+  background-color: #313131;
+  color: #ffffff;
+  width: 100%;
+}
+#header .header-middle ul.widgets {
+  padding-top: 0.6em;
+}
+#header .header-middle .logo {
+  float: left;
+  margin-top: 1em;
+  width: 17em;
+  height: 4em;
+}
+#header .header-middle .resp-menu {
+  background-color: #333333;
+  float: left;
+  width: 35%;
+}
+#header .header-middle .resp-menu-width {
+  float: left;
+  margin-top: 2em;
+  width: 25%;
+}
+#header .header-middle .resp-menu-width:hover a .loggedin-menu {
+  display: block;
+}
+#header .header-middle .resp-menu-width .resp-show-menu {
+  float: left;
+  width: 2em;
+  margin-left: 0.45em;
+}
+#header .header-middle .resp-menu-width .resp-show-menu .resp-menu-line {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  float: left;
+  margin: 2px 0;
+  width: 27px;
+}
+#header .header-middle .resp-menu-width .loggedin-menu {
+  background-color: #ffffff;
+  display: none;
+  float: left;
+  margin-left: -0.04em;
+  padding-bottom: 1em;
+  position: absolute;
+  top: 5.5em;
+  width: 30.4em;
+  z-index: 999;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .resp-text {
+  float: left;
+  margin-left: 0.4em;
+  margin-top: 1em;
+  width: 90%;
+  color: #000000;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block {
+  margin: 0 auto;
+  width: 29.5em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width {
+  float: left;
+  width: 100%;
+  margin-top: 0.6em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account {
+  background-color: #313131;
+  float: left;
+  height: 8em;
+  width: 31.7%;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo {
+  margin: 0 auto;
+  width: 2.5em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo .userpic {
+  float: left;
+  background-image: url("../../../../../../Content/Stilago/Images/default/menu/user-pic.png");
+  height: 2.5em;
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  width: 2.5em;
+  margin-top: 2.5em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo .droppic {
+  float: left;
+  background-image: url("../../../../../../Content/Stilago/Images/default/menu/drop-pic.png");
+  height: 2em;
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  width: 2.5em;
+  margin-top: 2.95em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo .starpic {
+  float: left;
+  background-image: url("../../../../../../Content/Stilago/Images/default/menu/star-pic.png");
+  height: 2.5em;
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  width: 2.5em;
+  margin-top: 2.5em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo .giftpic {
+  float: left;
+  background-image: url("../../../../../../Content/Stilago/Images/default/menu/certificate-pic.png");
+  height: 2.5em;
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  width: 2.5em;
+  margin-top: 2.5em;
+}
+#header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .resp-logo-text {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+#header .header-bottom {
+  background-color: #171717;
+  border-top: 1px solid #575656;
+  color: #ffffff;
+}
+#header .header-bottom #all-cat {
+  display: block;
+  float: left;
+  padding: 0;
+}
+#header .header-bottom .mobile-sub-menu {
+  display: block;
+}
+#header .header-bottom .mobile-sub-menu .menu-container {
+  margin: 0;
+  float: left;
+  width: 93%;
+  padding: 0;
+}
+#header .header-bottom .open-menu-list-down {
+  float: right;
+  height: 0.8em;
+  margin: 0.2em 0.5em 0 0;
+  width: 1.5em;
+}
+#header .header-bottom .open-all-menu {
+  float: right;
+  width: 1.5em;
+  height: 1em;
+  margin: 0.2em 0.5em 0 0;
+  background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+}
+#header .header-bottom .menu.left {
+  float: left;
+  width: 100%;
+  padding: 0.5em 0;
+}
+#header .header-bottom .menu.left ul li {
+  display: inline;
+  padding-right: 2%;
+}
+#header .header-bottom .menu.left ul li a {
+  padding-right: 0.6em;
+}
+#header .header-bottom .menu.left ul li div {
+  padding-right: 0.6em;
+}
+#header .all-category-menu .list-menu {
+  border-bottom: 1px solid #d5cfca;
+  padding: 0.5em 0 1em;
+}
+#header .all-category-menu .list-menu .click-menu-img {
+  float: left;
+  width: 3.5em;
+}
+#header .all-category-menu .list-menu .click-menu-img .menu-girl-img {
+  float: left;
+  margin-left: 0.45em;
+  margin-top: 0.3em;
+  width: 2em;
+}
+#header .all-category-menu .list-menu .menu-margin-top {
+  margin-top: 0.6em;
+  width: 72%;
+}
+#header .all-category-menu .list-menu .open-menu-list-left {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 0.8em auto;
+  float: right;
+  height: 1.5em;
+  margin-top: 0.4em;
+  width: 2.2em;
+}
+#header .all-category-menu .list-menu .open-menu-list-left .open-all-menu {
+  float: right;
+  width: 2em;
+  height: 1em;
+  margin: 0.5em 0.5em 0 0em;
+  background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 2em;
+}
+#header .all-category-menu .list-menu .open-menu-list-left .menu-left-arrow-pic-down {
+  float: left;
+  height: 1.7em;
+  margin-left: 0.4em;
+}
+#header .all-category-menu .list-menu .menu-left-arrow-pic {
+  float: left;
+  margin-top: 0.4em;
+  width: 1.8em;
+}
+#header .all-category-menu .list-menu .menu-children {
+  float: left;
+  margin: 1em 0 0 1em;
+  padding-bottom: 1em;
+  width: 90%;
+}
+#header .all-category-menu .list-menu .menu-children .menu-margin-left {
+  margin-left: 2.5em;
+  padding: 0.5em 0;
+  width: 80%;
+}
+#header .all-category-menu .list-menu .menu-children .menu-margin-left-li {
+  float: left;
+  margin-left: 2em;
+  width: 80%;
+}
+#header .all-category-menu .list-menu .all-category-submenu-border {
+  border-bottom: 1px solid #d5cfca;
+  float: left;
+  width: 100%;
+}
+body.non-responsive {
+  color: #382e24;
+  font-family: 'OpenSansRegular', Arial;
+  font-size: 10pt;
+  height: 100%;
+}
+body.non-responsive .to-top-arrow {
+  left: 86%;
+  margin: 0 0 0 50px;
+  padding: 0;
+}
+body.non-responsive .content-holder {
+  width: 98%;
+}
+.content-holder-mobile {
+  width: 100% !important;
+}
+#footer {
+  background-color: #5a4444;
+  color: #ffffff;
+  height: auto;
+  margin-top: 2em;
+  overflow: hidden;
+  width: 97.5%;
+  margin-left: 0.4em;
+}
+#footer .footer-top .logo {
+  float: left;
+  height: 50px;
+  width: 131px;
+  display: none;
+}
+#footer .footer-top .links {
+  float: left;
+  margin-left: 1%;
+  margin-top: 0.4165em;
+  width: 23%;
+}
+#footer .footer-bottom {
+  background-color: #ffffff;
+  border-top: 1px solid #b9b9b9;
+  padding-top: 1.23em;
+}
+#footer .footer-bottom .footer-bottom-item {
+  float: left;
+  font-size: 84%;
+  width: 64%;
+}
+#footer .footer-bottom .footer-bottom-item .payment-types {
+  margin-bottom: 0em;
+  width: 40%;
+  float: left;
+}
+#footer .footer-bottom .footer-bottom-item .text {
+  display: block;
+  padding-bottom: 0.4em;
+  width: 18em;
+  float: left;
+  padding-bottom: 0em;
+  width: 54%;
+  font-weight: bold;
+  font-size: 1em;
+  color: #000000;
+}
+#footer .footer-bottom .footer-bottom-item .fast-delivery {
+  display: none;
+}
+#footer .footer-bottom .footer-bottom-item .h6 {
+  display: none;
+  font-size: 100%;
+  font-weight: bold;
+  padding-bottom: 0.4em;
+}
+#footer .footer-bottom .bonus-newsletters-form {
+  display: none;
+}
+#footer .footer-bottom .social-media {
+  float: right;
+  margin-left: 1%;
+  width: 34% !important;
+}
+#footer .footer-bottom .social-media ul li {
+  float: left;
+  margin-bottom: 0.5em !important;
+  margin-right: 0.5em !important;
+}
+#footer .footer-bottom .godaddy {
+  float: right;
+  margin-right: 30px;
+  margin-top: 19px;
+  display: none;
+}
+.social-links li.google-plus a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus.png");
+}
+.social-links li.google-plus a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus-Active.png");
+}
+.social-links li.pinterest a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest.png");
+}
+.social-links li.pinterest a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest-Active.png");
+}
+.social-links li.facebook a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook.png");
+}
+.social-links li.facebook a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook-Active.png");
+}
+.social-links li.blog a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog.png");
+}
+.social-links li.blog a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog-Active.png");
+}
+.social-links li.twitter a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter.png");
+}
+.social-links li.twitter a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter-Active.png");
+}
+.social-links li.you-tube a {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube.png");
+}
+.social-links li.you-tube a:hover {
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube-Active.png");
+}
+.countries {
+  display: none;
+}
+#header-cart .shopping-cart {
+  margin-right: 0.5em;
+  padding-bottom: 0px;
+  position: relative;
+  z-index: 1000;
+  margin-top: 1.5em;
+}
+.margin-right-left {
+  float: left;
+  margin: 0 0.6em 0 0.6em;
+}
+.all-category-menu {
+  display: none;
+  width: 30em;
+  float: left;
+  position: absolute;
+  z-index: 111;
+  background-color: #ffffff;
+}
+.manu-up-arrow {
+  float: left;
+  margin-top: -0.7em;
+  display: none;
+}
+.footer-click-arrow {
+  display: none;
+}
+.menu-container-none {
+  display: none;
+}
+.all-cat-div {
+  display: none;
+  float: left;
+  padding: 0;
+  width: 38em;
+}
+.margin-bottom {
+  margin-bottom: 0.8em;
+}
+.copyright {
+  float: left;
+  width: 60% !important;
+}
+.hide-me {
+  display: none !important;
+}
+.country-box {
+  font: 12px "Arial";
+  height: 480px;
+  position: fixed;
+  right: -115px;
+  top: 0px;
+  transition: right 1s ease 0s;
+  width: 140px;
+  z-index: 100;
+  display: none;
+}
+.site {
+  min-height: 100%;
+}
+.img-width {
+  width: 100%;
+}
+.content-holder {
+  margin: 0 auto;
+  width: 90%;
+}
+.banner-container .banner-image {
+  display: block;
+  width: 100%;
+}
+.pages {
+  margin: 0 auto;
+  padding-bottom: 0px;
+}
+.call-me-back .call-me-back-slider-menu {
+  display: none;
+  height: 175px;
+  position: fixed;
+  right: -360px;
+  top: 250px;
+  width: 360px;
+}
+.social_width {
+  float: left;
+  width: 2em;
+  margin-left: 1em;
+}
+.caroufredsel-wrapper {
+  margin: 0 ;
+  width: 100% !important;
+}
+.carousel,
+.horizontal {
+  width: 100% !important;
+}
+.carousel-wrapper .carousel.horizontal li {
+  float: left;
+  width: 100%;
+}
+.carousel-wrapper .carousel.horizontal li a img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.top-menu {
+  float: left;
+  width: 100%;
+}
+.center-logo {
+  margin: 0 auto;
+  width: 225px;
+}

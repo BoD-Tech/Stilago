@@ -1,0 +1,42 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/font.css");
+body {
+  font-family: 'OpenSansBold';
+}
+#home > #club .sale-list .sale .banner-container {
+  display: block;
+  position: relative;
+  width: auto;
+  height: 17em;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
+  left: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev-Active.png");
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext.png");
+  right: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext-Active.png");
+}
+#home > #club .promo-banners .banner-container .banner-image {
+  width: 100%;
+}
+#home > #club .promo-banners .caroufredsel-wrapper {
+  width: 100% !important;
+}
+#home > #club .countdown-translations .sale-list .sale .info .left .button {
+  display: block;
+  float: left;
+  font-family: 'OpenSansBold';
+  font-size: 106%;
+  margin: 0.2em 0 0.5em 0.5em;
+  padding: 0.1em 1.25em;
+}
+#home > #club .countdown-translations .sale-list .sale .info .discount-percentage {
+  font-family: 'OpenSansBold';
+  font-weight: normal !important;
+}

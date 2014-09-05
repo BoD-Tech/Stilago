@@ -1,0 +1,38 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.css");
+#home > #club .sale-list {
+  margin: 0 0 0px -1em;
+  text-align: left;
+}
+#home > #club .sale-list .sale {
+  float: left;
+  letter-spacing: normal;
+  margin-left: 1em;
+  padding-top: 1em;
+  vertical-align: top;
+  word-spacing: normal;
+  width: 96%;
+}
+#home > #club .sale-list .sale .info {
+  background: none repeat scroll 0 0 #313131;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+}
+#home > #club .sale-list .sale .info .discount-percentage {
+  display: block;
+  font-family: 'OpenSansBold';
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 1em;
+  margin-right: 0.13em;
+  margin-top: 0.18em;
+}
+#home > #club .sale-list .sale .banner-container {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto !important;
+}
+#home > #club .promo-banners {
+  display: none;
+}

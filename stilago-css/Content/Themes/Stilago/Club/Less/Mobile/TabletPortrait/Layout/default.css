@@ -1,0 +1,8 @@
+@import url("../../../../../../../../Content/Stilago/LESS/Imports/font.css");
+body.club #header .header-top {
+  display: none;
+}
+body.club #header-cart .shopping-cart .shopping-cart-link .cart-title {
+  background-image: url("../../../../../../../../Content/Stilago/Images/default/ICO-Cart-White.png");
+  height: 1.8em;
+}

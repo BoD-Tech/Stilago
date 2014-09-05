@@ -1,0 +1,92 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/font.css");
+#home > #club .promo-banners .main-and-announcement-banners {
+  float: left;
+  width: 100%;
+}
+#home > #club .promo-banners .main-and-announcement-banners .announcement-bar {
+  height: 27px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 99%;
+  display: none;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper {
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
+  left: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev-Active.png");
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext.png");
+  right: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext-Active.png");
+}
+#home > #club .small-banner {
+  float: left;
+  height: 22.85em;
+  margin-left: 0em;
+  width: 34%;
+  display: none;
+}
+#home > #club .small-banner .banner-name {
+  width: 100%;
+  padding: 0px;
+}
+#home > #club .sale-list {
+  margin: 0 0 4px -1em;
+  text-align: left;
+}
+#home > #club .sale-list .sale {
+  float: left;
+  letter-spacing: normal;
+  margin-left: 2.2%;
+  padding-top: 1em;
+  vertical-align: top;
+  word-spacing: normal;
+  width: 47.7%;
+  margin-right: 0em;
+}
+#home > #club .sale-list .sale .banner-container {
+  display: block;
+  height: auto !important;
+  position: relative;
+}
+#home > #club .sale-list .sale .info {
+  background: none repeat scroll 0 0 #313131;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+}
+#home > #club .sale-list .sale .info .left {
+  float: left;
+  text-align: left;
+  width: 10em;
+}
+#home > #club .sale-list .sale .info .end-on {
+  font-size: 80%;
+  margin-left: 0.5em;
+  margin-top: 0.4em;
+  white-space: nowrap;
+}
+#home > #club .sale-list .sale .info .discount-percentage {
+  display: block;
+  font-family: 'OpenSansBold';
+  font-size: 280%;
+  font-weight: bold;
+  line-height: 1em;
+  margin-right: 0.13em;
+  margin-top: 0.18em;
+}
+#home > #club .sale-list .sale .banner-container {
+  display: block;
+  position: relative;
+  width: 100%;
+}

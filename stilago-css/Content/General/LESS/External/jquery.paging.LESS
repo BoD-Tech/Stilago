@@ -1,0 +1,178 @@
+.paging-container {
+  width: 430px;
+  display: inline-block;
+  float: right;
+}
+.paging-container + h1 {
+  padding: .6em 0;
+}
+.paging-container a,
+.paging-container a:active,
+.paging-container a:visited,
+.paging-container a:link {
+  color: black;
+}
+.paging-main-box {
+  vertical-align: middle;
+  display: inline-block;
+  float: right;
+  min-width: 290px;
+}
+.paging-main-box.disabled {
+  display: none;
+}
+.paging-main-box #select-events {
+  margin-left: 50px;
+}
+.paging-main-box > a.page-navigation.minus {
+  float: left;
+  padding: .4em 0;
+}
+.paging-main-box > input {
+  width: 35px;
+  height: 25px;
+  font-size: 120%;
+  text-align: center;
+  border: 1px #ada9a8 solid;
+  background-color: inherit;
+  color: inherit;
+  padding-top: 3px;
+}
+.paging-main-box > span {
+  color: #2a1f18;
+}
+.paging-main-box > span a {
+  font-size: 120%;
+  padding-right: .5em;
+  color: #2a1f18;
+}
+.paging-main-box .paging-controls-box {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  background: none;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+.paging-main-box .paging-box {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  background: none;
+  height: 25px;
+  display: inline-block;
+  overflow: hidden;
+  border-top: 1px #ada9a8 solid;
+  border-bottom: 1px #ada9a8 solid;
+}
+.paging-main-box .paging-box .disabled {
+  display: none !important;
+}
+.paging-main-box .paging-box > div {
+  width: 140px;
+  height: inherit;
+  position: relative;
+}
+.paging-main-box .paging-box > div > div {
+  background: none;
+  display: block;
+  width: 20px;
+  height: inherit;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 120%;
+  float: left;
+  position: relative;
+}
+.paging-main-box .paging-box > div > div > .top-right-stick {
+  position: absolute;
+  height: 3px;
+  border-left: 1px #ada9a8 solid;
+  top: 0;
+  right: 0px;
+}
+.paging-main-box .paging-box > div > div > .top-left-stick {
+  position: absolute;
+  height: 3px;
+  border-left: 1px #ada9a8 solid;
+  top: 0;
+  left: 0;
+}
+.paging-main-box .paging-box > div > div > .bottom-left-stick {
+  position: absolute;
+  height: 3px;
+  border-left: 1px #ada9a8 solid;
+  bottom: 0;
+  left: 0;
+}
+.paging-main-box .paging-box > div > div > .bottom-right-stick {
+  position: absolute;
+  height: 3px;
+  border-left: 1px #ada9a8 solid;
+  bottom: 0;
+  right: 0;
+}
+.paging-main-box .paging-box > div > div > a.page {
+  display: table-cell;
+  width: inherit;
+  height: inherit;
+  vertical-align: middle;
+  text-align: center;
+  background: none;
+  color: #2a1f18;
+}
+.paging-main-box .paging-box > div > div > a.page.two-symbols {
+  font-size: 70%;
+}
+.paging-main-box .paging-box > div > div > a.page.three-symbols {
+  font-size: 50%;
+}
+.paging-main-box .paging-controls-box > .current-pgn-box {
+  position: absolute;
+  height: inherit;
+  width: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.paging-main-box .paging-controls-box > .current-pgn-box > div:first-child {
+  width: 0;
+  height: 0;
+  border-top: 12px #ada9a8 solid;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: -8px;
+}
+.paging-main-box .paging-controls-box > .current-pgn-box > div:last-child {
+  width: 0;
+  height: 0;
+  border-bottom: 12px #ada9a8 solid;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  bottom: -6px;
+}
+.paging-main-box .paging-box > div > div > a.page:hover {
+  color: #e05d20;
+}
+.paging-main-box a:hover {
+  color: #e05d20;
+}
+.catalog .paging-container:last-child {
+  border-top: 1px #ada9a8 solid;
+  height: 33px;
+  margin-top: 30px;
+}

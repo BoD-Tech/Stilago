@@ -1,0 +1,95 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/font.css");
+#home > #club .sale-list {
+  margin: 0px 0 4px -1.2%;
+  text-align: left;
+}
+#home > #club .sale-list .sale .banner-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto !important;
+}
+#home > #club .sale-list .sale {
+  float: left;
+  letter-spacing: normal;
+  margin-left: 1.31%;
+  margin-right: 0;
+  padding: 0.5em 0;
+  vertical-align: top;
+  width: 32%;
+  word-spacing: normal;
+}
+#home > #club .sale-list .sale .info {
+  background: none repeat scroll 0 0 #313131;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+}
+#home > #club .sale-list .sale .info .left {
+  float: left;
+  text-align: left;
+  width: 10em;
+}
+#home > #club .sale-list .sale .info .end-on {
+  font-size: 80%;
+  margin-left: 0.5em;
+  margin-top: 0.4em;
+  white-space: nowrap;
+}
+#home > #club .sale-list .sale .info .discount-percentage {
+  display: block;
+  font-family: 'OpenSansBold';
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 1em;
+  margin-right: 0.13em;
+  margin-top: 0.18em;
+}
+#home > #club .promo-banners .main-and-announcement-banners {
+  width: 65.4%;
+  margin-right: 0%;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
+  left: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .prev:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev-Active.png");
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext.png");
+  right: 0;
+}
+#home > #club .promo-banners .main-and-announcement-banners .carousel-wrapper .next:hover {
+  background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselNext-Active.png");
+}
+#home > #club .promo-banners .main-and-announcement-banners .announcement-bar {
+  height: 27px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+#home > #club .promo-banners .main-and-announcement-banners .pagination {
+  bottom: 10px;
+  float: left;
+  left: 25px;
+  position: relative;
+}
+#home > #club .promo-banners .small-banner {
+  float: right;
+  height: auto !important;
+  margin-left: 0px;
+  width: 32.4%;
+  display: block;
+}
+#home > #club .promo-banners .small-banner .banner-name {
+  width: 100%;
+  padding: 0px;
+  font-size: 1em;
+  text-align: center;
+}

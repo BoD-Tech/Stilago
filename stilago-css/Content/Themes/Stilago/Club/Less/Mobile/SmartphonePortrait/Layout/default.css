@@ -1,0 +1,28 @@
+@import url("../../../../../../../../Content/Stilago/LESS/Imports/font.css");
+body.club #header .header-top {
+  display: none;
+}
+body.club #header .header-bottom {
+  background-color: #171717;
+  border-top: 1px solid #575656;
+  color: #ffffff;
+}
+body.club .header-middle .content-holder .widgets #header-cart .shopping-cart {
+  padding-bottom: 17px;
+}
+body.club .header-middle .content-holder .widgets #header-cart .shopping-cart .shopping-cart-link {
+  display: none;
+}
+body.club .header-middle .content-holder .widgets #header-cart .shopping-cart .mobile-cart-title {
+  background-image: url("../../../../../../../../Content/Stilago/Images/default/ICO-Cart-White.png");
+  height: 1.5em;
+  background-position: right 5px;
+  display: block;
+  width: 2em;
+  background-repeat: no-repeat;
+  margin-right: 0.55em;
+}
+body.club #footer {
+  background-color: #ffffff;
+  color: #000000;
+}
