@@ -1,7 +1,8 @@
-@import url("../../../../../../../Content/Stilago/LESS/Imports/color.css");
+@import url("../../../../../../../Content/Stilago/LESS/Imports/font.css");
 #home > #club .sale-list {
   margin: 0 0 0px -1em;
   text-align: left;
+  min-width: 320px;
 }
 #home > #club .sale-list .sale {
   float: left;

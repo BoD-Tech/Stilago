@@ -4,7 +4,7 @@
   font-family: "OpenSansBold";
   src:
     url("../../../../Content/stilago/Fonts/OpenSansBold.ttf") format("ttf"),
-    url(".../../../../Content/stilago/Fonts/OpenSansBold.woff") format("woff"),
+    url("../../../../Content/stilago/Fonts/OpenSansBold.woff") format("woff"),
     url("../../../../Content/stilago/Fonts/OpenSansBold.otf") format("opentype"),
     url("../../../../Content/stilago/Fonts/OpenSansBold.eot");
 }

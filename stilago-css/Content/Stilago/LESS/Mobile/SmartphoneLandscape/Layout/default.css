@@ -1,4 +1,5 @@
 @import url("../../../../../../Content/Stilago/LESS/Imports/font.css");
+
 body.club #header .header-top {
   display: none;
 }
@@ -113,6 +114,7 @@ body .site #header .header-top {
   height: 2em;
   background-repeat: no-repeat;
   background-size: 2.5em;
+  background-position: 0 4px;
   width: 2.5em;
   margin-top: 2.95em;
 }
@@ -159,7 +161,7 @@ body .site #header .header-top {
 #header .header-bottom .mobile-sub-menu {
   float: left;
   padding: 0.48em 0;
-  height: 1.8em;
+  height: 1.4em;
 }
 #header .header-bottom .mobile-sub-menu .padding-menu {
   padding-right: 0.4em;
@@ -178,14 +180,14 @@ body .site #header .header-top {
   float: right;
   width: 1.5em;
   height: 0.8em;
-  margin-top: 1em;
+  margin-top: 0.8em;
   background-size: 1.5em;
 }
 #header .header-bottom .open-all-menu {
   float: right;
   width: 1.5em;
   height: 1em;
-  margin-top: 1em;
+  margin-top: 0.8em;
   background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
   background-repeat: no-repeat;
   background-size: 1.5em;
@@ -332,7 +334,7 @@ body .site #header .header-top {
 }
 #footer .footer-top .click-arrow .open-all-menu {
   float: right;
-  width: 1.5em;
+  width: 1.8em;
   height: 0.8em;
   margin-top: 0;
   background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
@@ -438,7 +440,7 @@ body .site #header .header-top {
   background-image: url("/stilago/Content/Stilago/Images/default/social/YouTube-Active.png");
 }
 #header-cart .shopping-cart {
-  margin-right: 0.7em;
+  margin-right: 1em;
   padding-bottom: 0px;
   position: relative;
   z-index: 1000;

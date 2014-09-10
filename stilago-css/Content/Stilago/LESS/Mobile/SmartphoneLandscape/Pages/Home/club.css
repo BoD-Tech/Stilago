@@ -1,18 +1,17 @@
-@import url("../../../../../../../Content/Stilago/LESS/Imports/color.css");
+@import url("../../../../../../../Content/Stilago/LESS/Imports/font.css");
 #home > #club .sale-list {
-  margin: 0px;
+  margin: 0 0 4px -1em;
   text-align: left;
-  width: 103%;
 }
 #home > #club .sale-list .sale {
   float: left;
   letter-spacing: normal;
-  margin-right: 3.3%;
+  margin-left: 3.3%;
+  margin-right: 0;
   padding-top: 1em;
   vertical-align: top;
-  word-spacing: normal;
   width: 46.7%;
-  margin-left: 0px;
+  word-spacing: normal;
 }
 #home > #club .sale-list .sale .info {
   background: none repeat scroll 0 0 #313131;

@@ -2,44 +2,43 @@
 body {
   color: #382e24;
   font-family: 'OpenSansRegular', 'Arial' !important;
-  font-size: 10pt;
   height: 100%;
 }
 ul.social-links li.google-plus a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/GooglePlus.png");
 }
 ul.social-links li.google-plus a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/GooglePlus-Active.png");
 }
 ul.social-links li.pinterest a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Pinterest.png");
 }
 ul.social-links li.pinterest a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Pinterest-Active.png");
 }
 ul.social-links li.facebook a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Facebook.png");
 }
 ul.social-links li.facebook a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Facebook-Active.png");
 }
 ul.social-links li.blog a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Blog.png");
 }
 ul.social-links li.blog a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Blog-Active.png");
 }
 ul.social-links li.twitter a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Twitter.png");
 }
 ul.social-links li.twitter a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/Twitter-Active.png");
 }
 ul.social-links li.you-tube a {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/YouTube.png");
 }
 ul.social-links li.you-tube a:hover {
-  background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube-Active.png");
+  background-image: url("../../../../../../Content/Stilago/Images/default/social/Desktop/YouTube-Active.png");
 }
 .caroufredsel_wrapper {
   margin: 0 !important;

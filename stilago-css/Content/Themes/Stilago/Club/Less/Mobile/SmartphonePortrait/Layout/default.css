@@ -1,4 +1,5 @@
 @import url("../../../../../../../../Content/Stilago/LESS/Imports/font.css");
+
 body.club #header .header-top {
   display: none;
 }
@@ -6,6 +7,12 @@ body.club #header .header-bottom {
   background-color: #171717;
   border-top: 1px solid #575656;
   color: #ffffff;
+  min-width: 320px;
+}
+body.club .header-middle {
+  background-color: #313131;
+  color: white;
+  min-width: 320px;
 }
 body.club .header-middle .content-holder .widgets #header-cart .shopping-cart {
   padding-bottom: 17px;

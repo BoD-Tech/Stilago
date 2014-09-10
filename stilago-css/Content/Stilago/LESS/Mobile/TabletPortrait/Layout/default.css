@@ -1,4 +1,5 @@
 @import url("../../../../../../Content/Stilago/LESS/Imports/font.css");
+
 #header {
   margin-bottom: 15px;
   width: 100%;
@@ -46,7 +47,7 @@
   background-color: #ffffff;
   display: none;
   float: left;
-  margin-left: -0.04em;
+  margin-left: -0.4em;
   padding-bottom: 1em;
   position: absolute;
   top: 5.5em;
@@ -55,14 +56,14 @@
 }
 #header .header-middle .resp-menu-width .loggedin-menu .resp-text {
   float: left;
-  margin-left: 0.4em;
+  margin-left: 0.85em;
   margin-top: 1em;
   width: 90%;
   color: #000000;
 }
 #header .header-middle .resp-menu-width .loggedin-menu .menu-block {
   margin: 0 auto;
-  width: 29.5em;
+  width: 28.5em;
 }
 #header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width {
   float: left;
@@ -96,6 +97,7 @@
   background-size: 2.5em;
   width: 2.5em;
   margin-top: 2.95em;
+  background-position: 0 3px;
 }
 #header .header-middle .resp-menu-width .loggedin-menu .menu-block .main-width .my-account .menu-logo .starpic {
   float: left;
@@ -252,7 +254,7 @@ body.non-responsive .content-holder {
   width: 98%;
 }
 .content-holder-mobile {
-  width: 100% !important;
+  width: 99% !important;
 }
 #footer {
   background-color: #5a4444;
@@ -274,6 +276,9 @@ body.non-responsive .content-holder {
   margin-left: 1%;
   margin-top: 0.4165em;
   width: 23%;
+}
+#footer .footer-top .links .footer-expandable-menu{
+  display: block !important;  
 }
 #footer .footer-bottom {
   background-color: #ffffff;
