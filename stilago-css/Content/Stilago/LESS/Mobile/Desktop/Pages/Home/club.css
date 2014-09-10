@@ -40,3 +40,9 @@ body {
   font-family: 'OpenSansBold';
   font-weight: normal !important;
 }
+#home > #club .promo-banners .main-and-announcement-banners .pagination {
+  top: -6%;
+  float: left;
+  left: 4%;
+  position: relative;
+}
