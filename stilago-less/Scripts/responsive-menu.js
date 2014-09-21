@@ -72,11 +72,13 @@ _initAll = function(){
                     $(".caroufredsel-wrapper").height(imgHt + 5);
                     $(".carousel").height(imgHt + 5);
                     $(".carousel-wrapper").height(imgHt + 5);
+                    $(".pagination").css("top", "-9%");
                 }
                 else if (document.body.offsetWidth < 905  && document.body.offsetWidth >= 805) {
                     $(".caroufredsel-wrapper").height(imgHt - 4);
                     $(".carousel").height(imgHt - 4);
                     $(".carousel-wrapper").height(imgHt - 4);
+                    $(".pagination").css("top", "-6%");
                 }
                 else if (document.body.offsetWidth < 805  && document.body.offsetWidth >= 769) {
                     $(".caroufredsel-wrapper").height(imgHt - 8);
@@ -92,16 +94,6 @@ _initAll = function(){
                     $(".carousel").height(260);
                     $(".carousel-wrapper").height(260);
                 }
-                if (document.body.offsetWidth > 400 && document.body.offsetWidth < 600) {
-                                $(".pagination").css("top", "-12%");
-                    } else if (document.body.offsetWidth >= 600 && document.body.offsetWidth < 769) {
-                                $(".pagination").css("top", "-7%");
-                    } else if (document.body.offsetWidth >= 769 && document.body.offsetWidth < 1000) {
-                                $(".pagination").css("top", "-6%");
-                    } else if (document.body.offsetWidth >= 1000) {
-                                $(".pagination").css("top", "");
-                                $(".pagination").css("bottom", "10px");
-                    }
                 
                 $(window).resize(function() {
                     var bodyheight = $(document).height();
@@ -111,13 +103,13 @@ _initAll = function(){
                         $(".caroufredsel-wrapper").height(imgHt + 5);
                         $(".carousel").height(imgHt + 5);
                         $(".carousel-wrapper").height(imgHt + 5);
-                        //$(".pagination").css("top", "-9%");
+                        $(".pagination").css("top", "-9%");
                     }
                     else if (document.body.offsetWidth < 905  && document.body.offsetWidth >= 805) {
                         $(".caroufredsel-wrapper").height(imgHt - 4);
                         $(".carousel").height(imgHt - 4);
                         $(".carousel-wrapper").height(imgHt - 4);
-                        //$(".pagination").css("top", "-6%");
+                        $(".pagination").css("top", "-6%");
                     }
                     else if (document.body.offsetWidth < 805  && document.body.offsetWidth >= 769) {
                         $(".caroufredsel-wrapper").height(imgHt - 8);
@@ -128,21 +120,10 @@ _initAll = function(){
                         $(".caroufredsel-wrapper").height(imgHt);
                         $(".carousel").height(imgHt);
                         $(".carousel-wrapper").height(imgHt);
-                        //$(".pagination").css("top", "-8%");
                     } else {
                         $(".caroufredsel-wrapper").height(260);
                         $(".carousel").height(260);
                         $(".carousel-wrapper").height(260);
-                    }
-                    if (document.body.offsetWidth > 400 && document.body.offsetWidth < 600) {
-                                $(".pagination").css("top", "-12%");
-                    } else if (document.body.offsetWidth >= 600 && document.body.offsetWidth < 769) {
-                                $(".pagination").css("top", "-7%");
-                    } else if (document.body.offsetWidth >= 769 && document.body.offsetWidth < 1000) {
-                                $(".pagination").css("top", "-6%");
-                    } else if (document.body.offsetWidth >= 1000) {
-                                $(".pagination").css("top", "");
-                                $(".pagination").css("bottom", "10px");
                     }
                 });
             }
