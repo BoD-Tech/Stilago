@@ -1,554 +1,88 @@
-@import url("../../../../../../Content/Stilago/LESS/Imports/color.LESS");
-@import url("../../../../../../Content/Stilago/LESS/Imports/font.LESS");
-    #header
-    {
+@import url("../../../../../../Content/Stilago/LESS/Imports/color.less");
+@import url("../../../../../../Content/Stilago/LESS/Imports/font.less");
+    #header{
         margin-bottom: 10px;
-        width: 100%;
-        .header-top {
-            display: none;
-        }
-        .resp-menu-width
-        {
-            &:hover
-            {
-                a
-                {   .loggedin-menu
-                    {
-                        display : block;
-                    }
-                }
-            }
-        }
-        .header-middle
-        {
-            ul.widgets {
-                padding-top: 0.6em;
-            }
-            background-color: @Color-Club-brown;
-            color: @Color-Txt-white;
-            width: 100%;
-            .logo {
-                float: left;
-                margin-top: 1em;
-                width: 17em;
-                height: 4em;
-            }
+	min-width: 769px;
+        .header-middle{
             .resp-menu {
-                background-color: @Color-footer-background;
-                float: left;
-                width: 35%;
                 .resp-menu-width {
-                    float: left;
-                    margin-top: 2em;
-                    width: 25%;
-		    margin-left: 0em;
                     .resp-show-menu {
-                        float: left;
-                        width: 2em;
                         margin-left: 0.4em;
-                        .resp-menu-line {
-                            border: 2px solid @Color-Club-white;
-                            border-radius: 4px;
-                            float: left;
-                            margin: 2px 0;
-                            width: 27px;
+                    }
+		    .loggedin-menu-display{ 
+			margin-left: -0.5em;
+			.menu-block{
+			    width: 28.6em;
                         }
                     }
-                    .loggedin-menu{ 
-                    background-color: @Color-Club-white;
-		    display: none;
-		    float: left;
-		    margin-left: -0.5em;
-		    padding-bottom: 1em;
-		    position: absolute;
-		    top: 5.5em;
-		    width: 30.4em;
-		    z-index: 999;
-                    .resp-text {
-                        float: left;
-                        margin-left: 0.85em;
-                        margin-top: 1em;
-                        width: 90%;
-                        color: @Color-header-menu-text;
-                    }
-                    .menu-block{
-                        margin: 0 auto;
-                        width: 28.6em;
-                        .main-width{
-                            float: left;
-                            width: 100%;
-                            margin-top: 0.6em;
-                            .my-account{
-                                background-color: @Color-Club-brown;
-                                float: left;
-                                height: 8em;
-                                width: 31.7%;
-                                .menu-logo{
-                                    margin: 0 auto;
-                                    width: 2.5em;
-                                    .userpic{
-						float: left;
-						background-image: url("../../../../../../Content/Stilago/Images/default/menu/user-pic.png");
-						height: 2.5em;
-						background-repeat: no-repeat;
-						background-size: 2.5em;
-						width: 2.5em;
-						margin-top: 2.5em;
-						}
-					.droppic{
-						float: left;
-						background-image: url("../../../../../../Content/Stilago/Images/default/menu/drop-pic.png");
-						height: 2em;
-						background-repeat: no-repeat;
-						background-size: 2.5em;
-						width: 2.5em;
-						margin-top: 2.95em;
-						background-position: 0 3px;
-					}
-					.starpic{
-						float: left;
-						background-image: url("../../../../../../Content/Stilago/Images/default/menu/star-pic.png");
-						height: 2.5em;
-						background-repeat: no-repeat;
-						background-size: 2.5em;
-						width: 2.5em;
-						margin-top: 2.5em;
-					}
-					.giftpic{
-						float: left;
-						background-image: url("../../../../../../Content/Stilago/Images/default/menu/certificate-pic.png");
-						height: 2.5em;
-						background-repeat: no-repeat;
-						background-size: 2.5em;
-						width: 2.5em;
-						margin-top: 2.5em;
-					}
-                                }
-                                .resp-logo-text{
-                                    float: left;
-                                    width: 100%;
-                                    text-align: center;
-                                    font-size: 12px;
-                                }
-                            }
-                        }
-                    }
-                }
                 }
             }
         }
         .header-bottom {
-            background-color: @Color-Club-darkbrown;
-            border-top: 1px solid @Color-header-bottom-border;
-            color: @Color-Txt-white;
             .mobile-sub-menu
             {
                 display: block;
-                .padding-menu
-                {
+                .padding-menu{
                     padding-right: 2.5%;
                 }
                 .menu-container {
-                    float: left;
-                    margin: 0;
-                    padding: 0;
                     width: 78%;
                 }
             }
             .menu.left{
-                    float: left;
-                    width: 100%;
-                    padding: 0.5em 0em;
-                    ul
-                    {
-                        li {
-                            display: inline;
-                            padding-right: 2%;
-                            a{
-                                padding-right: 0.8em;
-                            }
-                            div
-                            {
-                                padding-right: 0.8em;
-                            }
-                        }
-                    }
-            }
-            #all-cat {
-                display: block;
-                float: left;
-                padding: 0;
-            }
-            .open-menu-list-down {
-                float: right;
-                height: 0.8em;
-                width: 1.5em;
-                margin: 0.2em 0.5em 0 0;
-            }
-            .open-all-menu{
-                float: right;
-                width: 1.5em;
-                background-repeat: no-repeat;
-                height: 1em;
-                margin: 0.2em 0.5em 0 0;
-                background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
-                background-repeat: no-repeat;
-                background-size: 1.5em;
+		ul{
+		    li {
+			a{
+			    padding-right: 0.8em;
+			}
+			div{
+			    padding-right: 0.8em;
+			}
+		    }
+		}
 	    }
         }
+	.all-category-menu-display{
+	    .list-menu {
+		.menu-margin-top {
+		    width: 80%;
+		}
+	    }
+	}
+	#loggedin{
+	    display: none;
+	}
     }
-        .all-category-menu{
-        display: none;
-        width: 30em;
-        float: left;
-        position: absolute;
-        z-index: 111;
-        background-color: @Color-Club-white;
-        .list-menu {
-            border-bottom: 1px solid @Color-header-menu-border;
-            padding: 0.5em 0 1em;
-            .click-menu-img {
-                float: left;
-                width: 3.5em;
-                .menu-girl-img {
-                    float: left;
-                    margin-left: 0.45em;
-                    margin-top: 0.3em;
-                    width: 2em;
-                }
-            }
-            .open-menu-list-left {
-                background-position: left center;
-                background-repeat: no-repeat;
-                background-size: 0.8em auto;
-                float: right;
-                height: 1.5em;
-                margin-top: 0.4em;
-                width: 2.2em;
-                .open-all-menu{
-                    float: right;
-                    width: 2em;
-                    background-repeat: no-repeat;
-                    height: 1em;
-                    margin: 0.5em 0.5em 0 0em;
-                    background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
-                    background-repeat: no-repeat;
-                    background-size: 2em;
-                }
-                .menu-left-arrow-pic-down {
-                    float: left;
-                    height: 1.7em;
-                    margin-left: 0.4em;
-                }
-            }
-            .menu-left-arrow-pic {
-                float: left;
-                margin-top: 0.4em;
-                width: 1.8em;
-            }
-            .menu-margin-top {
-                margin-top: 0.6em;
-                width: 80%;
-            }
-            .menu-children {
-                float: left;
-                margin: 1em 0 0 1em;
-                padding-bottom: 1em;
-                width: 90%;
-                .menu-margin-left {
-                    margin-left: 2.5em;
-                    padding: 0.5em 0;
-                    width: 80%;
-                }
-                .menu-margin-left-li {
-                    float: left;
-                    margin-left: 2em;
-                    width: 80%;
-                }
-            }
-            .all-category-submenu-border{
-                border-bottom: 1px solid @Color-header-menu-border;
-                float: left;
-                width: 100%;
-            }
-        }
-    }
-    
-
-
-
-
-#loggedin{
-    display: none;
-}
-
-
-
 body.non-responsive
 {
-    color: @Color-Txt-black;
-    font-family: 'OpenSansRegular',Arial;
-    font-size: 10pt;
-    height: 100%;
-    .content-holder
-    {
-        width: 98%;
+    .content-holder{
+	min-width: 749px;
     }
     .content-holder-mobile{
         width: 99% !important;
     }
     .to-top-arrow {
-      left: 78%;
-      margin: 0 0 0 50px;
-      padding: 0;
-    }
-}
-
-#home {
-    #club
-    {
-        .promo-banners
-        {
-            .main-and-announcement-banners {
-                float: left;
-                width: 64%;
-            }
-        }
+	left: 78%;
     }
 }
 #footer {
-    background-color: @Color-FM-brown;
-    color: @Color-Txt-white;
-    height: auto;
-    margin-top: 2em;
-    overflow: hidden;
-    width: 97.5%;
-    margin-left: 0.4em;
-    .footer-top
-    {
-        .logo {
-            float: left;
-            height: 50px;
-            width: 131px;
-            display: none;
-        }
-        .links {
-            float: left;
-            margin-left: 1%;
-            margin-top: 0.4165em;
-            width: 23%;
-	    .footer-expandable-menu{
-		display: block !important;
-	    }
-        }
-    }
-    .footer-bottom
-    {
-        background-color: @Color-Club-white;
-        border-top: 1px solid @Color-footer-botom;
-        padding-top: 1.23em;
-        .footer-bottom-item
-        {
-            float: left;
-            font-size: 84%;
+    min-width: 749px;
+    .footer-bottom{
+        .footer-bottom-item{
             width: 66%;
             .text {
-                display: block;
-                padding-bottom: 0.4em;
-                width: 18em;
-                float: left;
                 padding-bottom: 0.4em;
                 width: 62%;
-                font-weight: bold;
                 font-size: 1.2em;
-                color: @Color-header-menu-text;
             }
             .payment-types {
                 margin-bottom: 2.5em;
                 width: 36%;
-                float: left;
-            }
-            .fast-delivery {
-                display: none;
-            }
-            .h6 {
-                display: none;
-            }
-            ul.social-links {
-                li.google-plus
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/GooglePlus-Active.png");
-                        }
-                    }
-                }
-                li.pinterest
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Pinterest-Active.png");
-                        }
-                    }
-                }
-                li.facebook
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Facebook-Active.png");
-                        }
-                    }
-                }
-                li.blog
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Blog-Active.png");
-                        }
-                    }
-                }
-                li.twitter
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Twitter-Active.png");
-                        }
-                    }
-                }
-                li.you-tube
-                {
-                    a
-                    {
-                        background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube.png");
-                        &:hover{
-                            background-image: url("../../../../../../Content/Stilago/Images/default/social/YouTube-Active.png");
-                        }
-                    }
-                }
             }
         }
         .social-media {
-            float: right;
-            margin-left: 1%;
             width: 30% !important;
-        }
-        .bonus-newsletters-form {
-            display: none;
-        }
-        .godaddy {
-            display: none;
         }
     }
 }
-
-.countries{
-    display: none;
-}
-.margin-right-left{
-    float: left;
-    margin: 0 0.6em 0 0.6em;
-}
-
-#categories
-{
-    display: block;
-}
-.manu-up-arrow{
-    float: left;
-    margin-top: -0.7em;
-    display: none;
-}
-.footer-click-arrow{
-    display: none;
-}
-.menu-container-none{
-    display: none !important;
-}
-.all-cat-div {
-    display: none;
-    float: left;
-    padding: 0;
-}
-.margin-bottom {
-    margin-bottom: 0.8em;
-}
 .all-category-submenu{display: none;}
-.hide-me{display: none !important;}
-
-.country-box {
-    font: 12px "Arial";
-    height: 480px;
-    position: fixed;
-    right: -115px;
-    top: 0px;
-    transition: right 1s ease 0s;
-    width: 140px;
-    z-index: 100;
-    display: none;
-}
-.site {
-    min-height: 100%;
-}
-.img-width{
-    width: 100%;
-}
-
-.banner-container
-{
-  .banner-image {
-      display: block;
-      width: 100%;
-  }
-}
-
-.pages {
-    margin: 0 auto;
-    padding-bottom: 0px;
-}
-.call-me-back
-{
-  .call-me-back-slider-menu {
-    display: none;
-  }
-}
-
-.caroufredsel-wrapper {
-    margin: 0 ;
-    width: 100% !important;
-}
-.carousel, .horizontal{
-    width: 100% !important;
-}
-.carousel-wrapper {
-     .carousel.horizontal {
-          li {
-               float: left;
-               width: 100%;
-	       height: 100%;
-               a {
-                    img {
-                         display: block;
-                         height: 100%;
-                         width: 100%;
-                    }
-               }
-          }
-     }
-}
-.top-menu{
-    float: left;
-    width: 100%;
-}
-.center-logo{margin: 0 auto;
-width: 225px;
-}

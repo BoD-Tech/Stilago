@@ -1,48 +1,16 @@
-@import url("../../../../../../../Content/Stilago/LESS/Imports/color.LESS");
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.less");
 #home > #club 
 {
     .sale-list {
         margin: 0px 0 4px -1.2%;
-        text-align: left;
-        .sale .banner-container {
-            display: block;
-            position: relative;
-            width: 100%;
-            height: auto !important;
-        }
         .sale {
-            float: left;
-            letter-spacing: normal;
             margin-left: 1.31%;
             margin-right: 0;
             padding: 0.5em 0;
-            vertical-align: top;
             width: 32%;
-            word-spacing: normal;
             .info {
-                background: none repeat scroll 0 0 @Color-Club-brown;
-                color: @Color-Txt-white;
-                overflow: hidden;
-                width: 100%;
-                .left {
-                    float: left;
-                    text-align: left;
-                    width: 10em;
-                }
-                .end-on {
-                    font-size: 80%;
-                    margin-left: 0.5em;
-                    margin-top: 0.4em;
-                    white-space: nowrap;
-                }
                 .discount-percentage {
-                    display: block;
-                    font-family: 'OpenSansBold';
                     font-size: 300%;
-                    font-weight: bold;
-                    line-height: 1em;
-                    margin-right: 0.13em;
-                    margin-top: 0.18em;
                 }
             }
         }
@@ -52,7 +20,6 @@
             width: 66.2%;
             margin-right: 0%;
             .carousel-wrapper {
-                //height: 250px;
                 position: relative;
                 width: 100%;
                 .prev{
@@ -71,18 +38,18 @@
                 }
             }
             .announcement-bar {
-          height: 39px;
-          margin-bottom: 10px;
-          overflow: hidden;
-          width: 100%;
-          display: block;
-          ul {
-            display: table;
-            height: 39px;
-            line-height: 1.19em;
-            width: 100%;
-        }
-        }
+                height: 39px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                width: 100%;
+                display: block;
+                ul {
+                    display: table;
+                    height: 39px;
+                    line-height: 1.19em;
+                    width: 100%;
+                }
+            }
         .pagination{
             top: -6%;
             float: left;
@@ -91,20 +58,18 @@
             }
         }
         .small-banner {
-        float: right;
-        height: auto;
-        //max-height: 21.5em;
-        margin-left: 0px;
-        width: 32.45%;
-        display: block;
-        min-height: 247px;
-        .banner-name {
-            width: 100%;
-            padding: 0px;
-            font-size: 1em;
-            text-align: center;
-        }
-        
+            float: right;
+            height: auto;
+            margin-left: 0px;
+            width: 32.45%;
+            display: block;
+            min-height: 247px;
+            .banner-name {
+                width: 100%;
+                padding: 0px;
+                font-size: 1em;
+                text-align: center;
+            }
         }
     }
 }

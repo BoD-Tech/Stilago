@@ -1,0 +1,49 @@
+﻿@import "~/Content/Stilago/LESS/Imports/color.less";
+
+#product > #details
+{
+    .product-details
+    {
+        .product-details-info
+        {
+            .info-box
+            {
+                .tabs
+                {
+                    ul
+                    {
+                        li
+                        {
+                            display: inline;
+                            zoom: 1;
+                            width: 32.333%;
+                            border: none;
+                            cursor: pointer;
+
+                            a
+                            {
+                                color: #766c66;
+                                cursor: pointer;
+                            }
+
+                            &.active
+                            {
+                                a
+                                {
+                                    color: #382e24;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .option-details{
+                .option-lists-container{
+                    .disabled{
+                        display:inline !important;
+                    }
+                }
+            }
+        }
+    }
+}

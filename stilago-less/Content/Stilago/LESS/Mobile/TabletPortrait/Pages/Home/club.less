@@ -1,23 +1,23 @@
-@import url("../../../../../../../Content/Stilago/LESS/Imports/color.LESS");
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.less");
 #home > #club {
-    .promo-banners
-    {
+    .promo-banners{
       .main-and-announcement-banners
       {
         float: left;
         width: 100%;
-        .announcement-bar
-        {
-          height: 27px;
-          margin-bottom: 10px;
-          overflow: hidden;
-          width: 99%;
+        .announcement-bar{
           display: none; 
         }
         .carousel-wrapper {
-          height: 200px;
-          position: relative;
-          width: 100%;
+            height: 200px;
+            position: relative;
+            width: 100%;
+            .pagination {
+                bottom: 22px;
+                float: left;
+                left: 4%;
+                position: relative;
+            }
             .prev{
                 background-image: url("../../../../../../../Content/Stilago/Images/default/arrows/CarouselPrev.png");
                 left: 0;
@@ -37,74 +37,21 @@
       
     }
     .small-banner {
-      float: left;
-      height: 22.85em;
-      margin-left: 0em;
-      width: 34%;
       display: none;
-      .banner-name {
-          width: 100%;
-          padding: 0px;
-      }
     }
     .sale-list {
-      margin: 0 0 4px -1em;
-      text-align: left;
-      .sale
-      {
-        float: left;
-        letter-spacing: normal;
-        margin-left: 2.2%;
-        padding-top: 1em;
-        vertical-align: top;
-        word-spacing: normal;
-        width: 47.7%;
-        margin-right: 0em;
-        .banner-container {
-          display: block;
-          height: auto !important;
-          position: relative;
-        }
-        .info {
-          background: none repeat scroll 0 0 @Color-Club-brown;
-          color: @Color-Txt-white;
-          overflow: hidden;
-          width: 100%;
-          .left {
-            float: left;
-            text-align: left;
-            width: 10em;
-          }
-          .end-on {
-            font-size: 80%;
-            margin-left: 0.5em;
-            margin-top: 0.4em;
-            white-space: nowrap;
-          }
-          .discount-percentage {
-            display: block;
-            font-family: 'OpenSansBold';
-            font-size: 280%;
-            font-weight: bold;
-            line-height: 1em;
-            margin-right: 0.13em;
-            margin-top: 0.18em;
-          }
-        }
-        .banner-container
+        margin: 0 0 4px -1em;
+        .sale
         {
-          display: block;
-          position: relative;
-          width: 100%;
+            margin-left: 2.2%;
+            padding-top: 1em;
+            width: 47.7%;
+            margin-right: 0em;
+            .info {
+                .discount-percentage {
+                    font-size: 280%;
+                }
+            }
         }
-      }
     }
-}
-.carousel-wrapper
-{
-	.pagination
-	{
-		left: 4%;
-		margin: 0.5em 0 0 0;
-	}
 }

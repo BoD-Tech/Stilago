@@ -1,0 +1,107 @@
+﻿.loader
+{
+    filter: alpha(opacity=70) !important;
+}
+
+.shade
+{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: transparent url("/Content/General/Images/default/PX-000000-50.png");
+}
+
+.popup
+{
+    &.with-sign-up
+    {
+        .popup-content-container
+        {
+            .popup-content
+            {
+                ul.feature-list
+                {
+                    margin: 11px 10px;
+                    padding: 0.8em 0.83em 0.4em 0.83em;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    line-height: 1.2em;
+                    background: transparent url("/Content/General/Images/default/PX-ffffff-80.png");
+                }
+            }
+        }
+    }
+
+    &.sign-up
+    {
+        .popup-content-container
+        {
+            .popup-content
+            {
+                ul.feature-list
+                {
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+
+.banner-container
+{
+    .banner-name
+    {
+        background: transparent url("/Content/General/Images/default/PX-000000-50.png");
+    }
+}
+
+.carousel-wrapper
+{
+    .pagination
+    {
+        a
+        {
+            background: white;
+
+            &.selected
+            {
+                background: #232323;
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+.product-list
+{
+    .product
+    {
+        .image-container
+        {
+            .discount-percentage-container
+            {
+                padding-bottom: 0;
+                padding-right: 10px;
+                min-height: 30px;
+                min-width: 30px;
+            }
+
+            .hovered-content
+            {
+                .preview-button
+                {
+                    background: transparent url("/Content/General/Images/default/PX-ffffff-80.png");
+                }
+
+                .content
+                {
+                    background: transparent url("/Content/General/Images/default/PX-ffffff-80.png");
+                }
+            }
+        }
+    }
+}
