@@ -133,22 +133,32 @@
 <link href="/Content/Themes/Stilago/Outlet/LESS/Compatibility/IE7/Layout/default.less" rel="stylesheet"/>
 <link href="/Content/Themes/Stilago/Outlet/LESS/Compatibility/IE7/Pages/Brand/list.less" rel="stylesheet"/>
         <![endif]-->
-     <!--responsive file-->
+     <!--responsive file-->      
+            
+        <link href="./Content/Themes/Stilago/Club/Less/Mobile/Smartphone/Layout/default.less" rel="stylesheet/less" media="screen and (max-width: 599px)" />
+        <link href="./Content/Themes/Stilago/Club/Less/Mobile/Tablet/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 999px)" />
+        
         <link href="./Content/Themes/Stilago/Club/Less/Mobile/SmartphonePortrait/Layout/default.less" rel="stylesheet/less" media="screen and (max-width: 400px)" />
         <link href="./Content/Themes/Stilago/Club/Less/Mobile/SmartphoneLandscape/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 401px) and (max-width: 599px)" />
         <link href="./Content/Themes/Stilago/Club/Less/Mobile/TabletPortrait/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 768px)" />
         <link href="./Content/Themes/Stilago/Club/Less/Mobile/TabletLandscape/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 769px) and (max-width: 999px)" />
-        <link href="./Content/Stilago/LESS/Imports/font.less" rel="stylesheet/less" />
-        <link href="./Content/Stilago/LESS/Imports/color.less" rel="stylesheet/less" />
+        <link href="./Content/Themes/Stilago/Club/Less/Mobile/Desktop/Layout/default.less" rel="stylesheet/less" media="screen and (min-width:1000px)" />
+        <link href="./Content/Stilago/LESS/Mobile/Desktop/Layout/default.less" rel="stylesheet/less" media="screen and (min-width:1000px)" />
         
+        <!--<link href="./Content/Stilago/LESS/Imports/font.less" rel="stylesheet/less" />
+        <link href="./Content/Stilago/LESS/Imports/color.less" rel="stylesheet/less" />-->
+        
+        <link href="./Content/Stilago/LESS/Mobile/Smartphone/Layout/default.less" rel="stylesheet/less" media="screen and (max-width: 599px)" />
         <link href="./Content/Stilago/LESS/Mobile/SmartphonePortrait/Layout/default.less" rel="stylesheet/less" media="screen and (max-width: 400px)" />
         <link href="./Content/Stilago/LESS/Mobile/SmartphoneLandscape/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 401px) and (max-width: 599px)" />
+        <link href="./Content/Stilago/LESS/Mobile/Tablet/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 999px)" />
         <link href="./Content/Stilago/LESS/Mobile/TabletPortrait/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 768px)" />
         <link href="./Content/Stilago/LESS/Mobile/TabletLandscape/Layout/default.less" rel="stylesheet/less" media="screen and (min-width: 769px) and (max-width: 999px)" />
-        <link href="./Content/Stilago/LESS/Mobile/Desktop/Layout/default.less" rel="stylesheet/less" media="screen and (min-width:1000px)">
         
+        <link href="./Content/Stilago/LESS/Mobile/Smartphone/Pages/Home/club.less" rel="stylesheet/less" media="screen and (max-width: 599px)" />
         <link href="./Content/Stilago/LESS/Mobile/SmartphonePortrait/Pages/Home/club.less" rel="stylesheet/less" media="screen and (max-width: 400px)" />
         <link href="./Content/Stilago/LESS/Mobile/SmartphoneLandscape/Pages/Home/club.less" rel="stylesheet/less" media="screen and (min-width: 401px) and (max-width: 599px)" />
+        <link href="./Content/Stilago/LESS/Mobile/Tablet/Pages/Home/club.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 999px)" />
         <link href="./Content/Stilago/LESS/Mobile/TabletPortrait/Pages/Home/club.less" rel="stylesheet/less" media="screen and (min-width: 600px) and (max-width: 768px)" />
         <link href="./Content/Stilago/LESS/Mobile/TabletLandscape/Pages/Home/club.less" rel="stylesheet/less" media="screen and (min-width: 769px) and (max-width: 999px)" />
         <link href="./Content/Stilago/LESS/Mobile/Desktop/Pages/Home/club.less" rel="stylesheet/less" media="screen and (min-width:1000px)">
@@ -263,7 +273,7 @@
                             <span class="resp-menu-line"></span>
                         </div>
                     </a>
-                    <div class="loggedin-menu loggedin">
+                    <div class="loggedin-menu loggedin loggedin-menu-display">
                         <a href="javascript: void(0);"><span class="resp-text">Hi Lorem Ipsum</span></a>
                         <a href="javascript: void(0);"><span class="resp-text">Tel: +0000000</span></a>
                         <a href="javascript: void(0);"><span class="resp-text">Email: abcdergh@stilago.com</span></a>
@@ -389,7 +399,7 @@
     <div class="header-bottom">
         <div class="content-holder clear-fix">
             <nav class="menu left tran-box">
-                <div class="all-cat all-cat-div"></div>
+                <div class="all-cat all-cat-div all-cat-div-display"></div>
                     <div class="mobile-sub-menu">
                         <ul class="menu-container categories">
                             <li class="padding-menu hide-me">
@@ -417,7 +427,7 @@
                                     Kids
                                 </a>
                             </li>
-							<li class="padding-menu children">
+			    <li class="padding-menu children">
                                 <a href="javascript:void(0);" class="nested-sub-menu">
                                     Children
                                 </a>
@@ -437,7 +447,7 @@
                                     Szépség és egészség
                                 </a>
                             </li>
-							<li class="children">
+			    <li class="children">
                                 <a href="javascript:void(0);" class="home-menu">Health And Beauty</a>
                             </li>
                             <li>
@@ -791,7 +801,7 @@
         </nav>  
     </div>
 </div>
-    <div class="all-category-menu">
+    <div class="all-category-menu all-category-menu-display">
         <ul class="hide">
             <li class="list-menu">
                 <a href="javascript: void(0);">
