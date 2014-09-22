@@ -1,0 +1,448 @@
+@import url("../../../../../../Content/Stilago/LESS/Imports/color.less");
+@import url("../../../../../../Content/Stilago/LESS/Imports/font.less");
+#header{
+    width: 100%;
+    .header-top {
+        display: none;
+    }
+    .header-middle{
+        background-color: @Color-Club-brown;
+        color: @Color-Txt-white;
+        width: 100%;
+        ul.widgets {
+            padding-top: 0.6em;
+        }
+        .logo {
+            float: left;
+            margin-top: 1em;
+            width: 17em;
+            height: 4em;
+        }
+        .resp-menu{
+            background-color: @Color-footer-background;
+            float: left;
+            width: 35%;
+            .resp-menu-width {
+                float: left;
+                margin-top: 2em;
+                width: 25%;
+                margin-left: 0em;
+                .resp-show-menu {
+                    float: left;
+                    width: 2em;
+                    .resp-menu-line {
+                        border: 2px solid @Color-Club-white;
+                        border-radius: 4px;
+                        float: left;
+                        margin: 2px 0;
+                        width: 27px;
+                    }
+                }
+                &:hover
+                {
+                    a {
+                        .loggedin-menu{
+                            display : block;
+                        }
+                    }
+                }
+                .loggedin-menu{ 
+                    display: none;
+		}
+                .loggedin-menu-display{
+                    background-color: @Color-Club-white;
+                    float: left;
+                    padding-bottom: 1em;
+                    position: absolute;
+                    top: 5.5em;
+                    width: 30.4em;
+                    z-index: 999;
+                    .resp-text {
+                        float: left;
+                        margin-left: 0.85em;
+                        margin-top: 1em;
+                        width: 90%;
+                        color: @Color-header-menu-text;
+                    }
+                    .menu-block{
+                        margin: 0 auto;
+                        .main-width{
+                            float: left;
+                            width: 100%;
+                            margin-top: 0.6em;
+                            .my-account{
+                                background-color: @Color-Club-brown;
+                                float: left;
+                                height: 8em;
+                                width: 31.7%;
+                                .menu-logo{
+                                    margin: 0 auto;
+                                    width: 2.5em;
+                                    .userpic{
+                                        float: left;
+                                        background-image: url("../../../../../../Content/Stilago/Images/default/menu/user-pic.png");
+                                        height: 2.5em;
+                                        background-repeat: no-repeat;
+                                        background-size: 2.5em;
+                                        width: 2.5em;
+                                        margin-top: 2.5em;
+				    }
+                                    .droppic{
+                                        float: left;
+                                        background-image: url("../../../../../../Content/Stilago/Images/default/menu/drop-pic.png");
+                                        height: 2em;
+                                        background-repeat: no-repeat;
+                                        background-size: 2.5em;
+                                        width: 2.5em;
+                                        margin-top: 2.95em;
+                                        background-position: 0 3px;
+                                    }
+                                    .starpic{
+                                        float: left;
+                                        background-image: url("../../../../../../Content/Stilago/Images/default/menu/star-pic.png");
+                                        height: 2.5em;
+                                        background-repeat: no-repeat;
+                                        background-size: 2.5em;
+                                        width: 2.5em;
+                                        margin-top: 2.5em;
+                                    }
+                                    .giftpic{
+                                        float: left;
+                                        background-image: url("../../../../../../Content/Stilago/Images/default/menu/certificate-pic.png");
+                                        height: 2.5em;
+                                        background-repeat: no-repeat;
+                                        background-size: 2.5em;
+                                        width: 2.5em;
+                                        margin-top: 2.5em;
+                                    }
+                                }
+                                .resp-logo-text{
+                                    float: left;
+                                    width: 100%;
+                                    text-align: center;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-bottom{
+        background-color: @Color-Club-darkbrown;
+        border-top: 1px solid @Color-header-bottom-border;
+        color: @Color-Txt-white;
+        .all-cat {
+            display: block;
+            float: left;
+            padding: 0;
+        }
+        .mobile-sub-menu{
+            display: block;
+            .menu-container {
+                float: left;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .menu.left{
+            float: left;
+            width: 100%;
+            padding: 0.5em 0;
+            ul{
+                li.paddingmenu{
+                    display: inline;
+                    padding-right: 2%;
+                }
+                li.hide-me{
+                    display: none;
+                }
+            }
+        }
+        .open-menu-list-down {
+            float: right;
+            height: 0.8em;
+            width: 1.5em;
+            margin: 0.2em 0.5em 0 0;
+        }
+        .open-all-menu{
+            float: right;
+            width: 1.5em;
+            background-repeat: no-repeat;
+            height: 1em;
+            margin: 0.2em 0.5em 0 0;
+            background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
+            background-repeat: no-repeat;
+            background-size: 1.5em;
+        }
+    }
+    .all-category-menu{
+        display: none;
+    }
+    .all-category-menu-display{
+        width: 30em;
+        float: left;
+        position: absolute;
+        z-index: 111;
+        background-color: @Color-Club-white;
+        .list-menu {
+            border-bottom: 1px solid @Color-header-menu-border;
+            padding: 0.5em 0 1em;
+            .click-menu-img {
+                float: left;
+                width: 3.5em;
+                .menu-girl-img {
+                    float: left;
+                    margin-left: 0.45em;
+                    margin-top: 0.3em;
+                    width: 2em;
+                }
+            }
+            .open-menu-list-left {
+                background-position: left center;
+                background-repeat: no-repeat;
+                background-size: 0.8em auto;
+                float: right;
+                height: 1.5em;
+                margin-top: 0.4em;
+                width: 2.2em;
+                .open-all-menu{
+                    float: right;
+                    width: 2em;
+                    background-repeat: no-repeat;
+                    height: 1em;
+                    margin: 0.5em 0.5em 0 0em;
+                    background-image: url("../../../../../../Content/Stilago/Images/default/arrows/arrow.png");
+                    background-repeat: no-repeat;
+                    background-size: 2em;
+                }
+                .menu-left-arrow-pic-down {
+                    float: left;
+                    height: 1.7em;
+                    margin-left: 0.4em;
+                }
+            }
+            .menu-margin-top {
+                margin-top: 0.6em;
+            }
+            .menu-left-arrow-pic {
+                float: left;
+                margin-top: 0.4em;
+                width: 1.8em;
+            }
+            .menu-children {
+                float: left;
+                margin: 1em 0 0 1em;
+                padding-bottom: 1em;
+                width: 90%;
+                .menu-margin-left {
+                    margin-left: 2.5em;
+                    padding: 0.5em 0;
+                    width: 80%;
+                }
+                .menu-margin-left-li {
+                    float: left;
+                    margin-left: 2em;
+                    width: 80%;
+                }
+            }
+            .all-category-submenu-border{
+                border-bottom: 1px solid @Color-header-menu-border;
+                float: left;
+                width: 100%;
+            }
+        }
+    }
+}
+body.non-responsive
+{
+    color: @Color-Txt-black;
+    font-family: 'OpenSansRegular',Arial;
+    font-size: 10pt;
+    height: 100%;
+    .content-holder
+    {
+	margin: 0 auto;
+        width: 98%;
+    }
+    .content-holder-mobile{
+        width: 99% !important;
+    }
+    .to-top-arrow {
+        margin: 0 0 0 50px;
+        padding: 0;
+    }
+}
+#footer {
+    background-color: @Color-FM-brown;
+    color: @Color-Txt-white;
+    height: auto;
+    margin-top: 2em;
+    overflow: hidden;
+    width: 97.5%;
+    margin-left: 0.4em;
+    .footer-top{
+        .logo{
+            display: none;
+        }
+        .links {
+            float: left;
+            margin-left: 1%;
+            margin-top: 0.4165em;
+            width: 23%;
+            .footer-expandable-menu{
+                display: block !important;
+            }
+        }
+    }
+    .footer-bottom{
+        background-color: @Color-Club-white;
+        border-top: 1px solid @Color-footer-botom;
+        padding-top: 1.23em;
+        .footer-bottom-item{
+            float: left;
+            font-size: 84%;
+            .text {
+                display: block;
+                padding-bottom: 0.4em;
+                width: 18em;
+                float: left;
+                font-weight: bold;
+                color: @Color-header-menu-text;
+            }
+            .payment-types{
+                float: left;
+            }
+            .fast-delivery {
+                display: none;
+            }
+            .h6 {
+                display: none;
+            }
+            ul.social-links {
+                li.google-plus
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/GooglePlus.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/GooglePlus-Active.png");
+                        }
+                    }
+                }
+                li.pinterest
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Pinterest.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Pinterest-Active.png");
+                        }
+                    }
+                }
+                li.facebook
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Facebook.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Facebook-Active.png");
+                        }
+                    }
+                }
+                li.blog
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Blog.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Blog-Active.png");
+                        }
+                    }
+                }
+                li.twitter
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Twitter.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/Twitter-Active.png");
+                        }
+                    }
+                }
+                li.you-tube
+                {
+                    a
+                    {
+                        background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/YouTube.png");
+                        &:hover{
+                            background-image: url("../../../../../../Content/Stilago/Images/default/social/Mobile/YouTube-Active.png");
+                        }
+                    }
+                }
+            }            
+        }
+        .bonus-newsletters-form {
+            display: none;
+        }
+        .godaddy {
+            display: none;
+        }
+        .social-media{
+            float: right;
+            margin-left: 1%;
+            ul{
+                li {
+                    float: left;
+                    margin-bottom: 0.5em !important;
+                    margin-right: 0.5em !important;
+                }
+            }
+        }
+    }
+}
+.countries{
+    display: none;
+}
+.margin-right-left{
+    float: left;
+    margin: 0 0.6em 0 0.6em;
+}
+.footer-click-arrow{
+    display: none;
+}
+.menu-container-none{
+    display: none !important;
+}
+.all-cat-div {
+    display: none;
+}
+.all-cat-div-display {
+    float: left;
+    padding: 0;
+}
+.margin-bottom {margin-bottom: 0.8em;}
+.country-box {display: none;}
+.site {min-height: 100%;}
+.img-width{width: 100%;}
+.banner-container
+{
+  .banner-image {
+      display: block;
+      width: 100%;
+  }
+}
+
+.pages {
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.call-me-back
+{
+  .call-me-back-slider-menu {
+    display: none;
+  }
+}
+.top-menu{float: left; width: 100%;}
+.center-logo{margin: 0 auto;width: 225px;}

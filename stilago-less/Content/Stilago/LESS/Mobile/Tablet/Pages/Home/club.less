@@ -1,0 +1,74 @@
+@import url("../../../../../../../Content/Stilago/LESS/Imports/color.less");
+#home > #club {
+    .promo-banners
+    {
+	.main-and-announcement-banners
+	{
+	    .carousel-wrapper {
+		.caroufredsel-wrapper {
+		    margin: 0 ;
+		    width: 100% !important;
+		}
+		.carousel.horizontal {
+		    width: 100% !important;
+		    li {
+			float: left;
+			width: 100%;
+			height: 100%;
+			a {
+			    img {
+				display: block;
+				height: 100%;
+				width: 100%;
+			    }
+			}
+		    }
+	       }
+	    }
+	}
+    }
+    .sale-list{
+	text-align: left;
+	.sale{
+	    float: left;
+            letter-spacing: normal;
+	    word-spacing: normal;
+	    vertical-align: top;
+	    .banner-container {
+                display: block;
+                position: relative;
+                height: auto !important;
+            }
+	    .info{
+		background: none repeat scroll 0 0 @Color-Club-brown;
+                color: @Color-Txt-white;
+                overflow: hidden;
+                width: 100%;
+		.left {
+                    float: left;
+                    text-align: left;
+                    width: 10em;
+                }
+		.end-on {
+		    font-size: 80%;
+		    margin-left: 0.5em;
+		    margin-top: 0.4em;
+		    white-space: nowrap;
+		}
+		.discount-percentage {
+                    display: block;
+                    font-family: 'OpenSansBold';
+                    font-weight: bold;
+                    line-height: 1em;
+                    margin-right: 0.13em;
+                    margin-top: 0.18em;
+                }
+	    }
+	    .banner-container{
+		display: block;
+		position: relative;
+		width: 100%;
+	    }
+	}
+    }
+}
